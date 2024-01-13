@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group  android:checkableBehavior="single"
+        android:title="Notes Settings">
+        <item android:title="Notes">
+            <menu>
+                <item
+                    android:id="@+id/nav_all"
+                    android:title="All"
+                    android:icon="@drawable/baseline_sticky_note_2_24"
+                    />
+
+                <item
+                    android:id="@+id/nav_fav"
+                    android:title="Favorites"
+                    android:icon="@drawable/baseline_favorite_24"
+                    />
+
+                <item
+                    android:id="@+id/nav_sorted"
+                    android:title="Sorted"
+                    android:icon="@drawable/baseline_sort_24"
+                    />
+            </menu>
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Filters">
+            <menu>
+                <item
+                    android:id="@+id/nav_cat"
+                    android:title="Category"
+                    android:icon="@drawable/baseline_category_24"
+                    />
+
+
+            </menu>
+        </item>
+    </group>
+
+    <group  android:checkableBehavior="single">
+
+        <item
+            android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:title="Profile"
+                    android:icon="@drawable/baseline_settings_24"
+                    />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/baseline_logout_24"
+                />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#5A6BF5">
+
+        <ImageView
+            android:id="@+id/moreSettings"
+            android:layout_width="42dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="380dp"
+            android:src="@drawable/baseline_more_vert_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="140dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/notes_icon" />
+
+    <TextView
+        android:id="@+id/fragmentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="180dp"
+        android:text="Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/fragmentBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="5dp"
+        android:text="Body"
+        android:textSize="24sp" />
+
+</FrameLayout>

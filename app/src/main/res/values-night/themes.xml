@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidLabProject" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="BUTTON">
+        <item name="android:background">#2596be</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ERRORSCREEN">
+        <item name="android:background">#FF424242</item>
+    </style>
+
+    <style name="SCREEN">
+        <item name="android:background">#15202B</item>
+    </style>
+
+    <style name="textColor">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="EdtTxt">
+        <item name="android:background">#3A3737</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+</resources>

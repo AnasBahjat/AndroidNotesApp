@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="windowBackground">#FF4081</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="editTextStyle">#00E676</color>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="textColor">#FF5722</color>
+    <color name="done">#02B50B</color>
+    <color name="red">#F40606</color>
+</resources>

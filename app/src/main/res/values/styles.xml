@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item> <!-- Set the desired width -->
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+</resources>
